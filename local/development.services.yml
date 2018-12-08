@@ -1,0 +1,15 @@
+#
+# Local development config to disable (twig) caching.
+#
+# To activate this feature : make sure that theme debugging is enabled in
+# settings.local.php
+#
+parameters:
+  http.response.debug_cacheability_headers: true
+  twig.config:
+    debug: true
+    auto_reload: true
+    cache: false
+services:
+  cache.backend.null:
+    class: Drupal\Core\Cache\NullBackendFactory
