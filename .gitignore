@@ -22,3 +22,8 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore local only files (e.g. settings.local.php).
+/local/files/*
+!/local/**/.gitkeep
+/local/settings.local.php
