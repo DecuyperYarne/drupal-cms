@@ -13,7 +13,7 @@ _core:
 id: drupal_theme_account_menu
 theme: drupal_theme
 region: navigation
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:account'
 settings:

@@ -11,7 +11,7 @@ _core:
 id: drupal_theme_search
 theme: drupal_theme
 region: sidebar_first
-weight: -1
+weight: -6
 provider: null
 plugin: search_form_block
 settings:

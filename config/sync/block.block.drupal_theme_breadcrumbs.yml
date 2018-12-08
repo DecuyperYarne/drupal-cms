@@ -11,7 +11,7 @@ _core:
 id: drupal_theme_breadcrumbs
 theme: drupal_theme
 region: navigation
-weight: 0
+weight: -4
 provider: null
 plugin: system_breadcrumb_block
 settings:
