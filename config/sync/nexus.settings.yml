@@ -1,0 +1,30 @@
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+logo:
+  use_default: false
+  path: ''
+favicon:
+  use_default: true
+  path: ''
+slideshow_display: 1
+show_breadcrumbs: 1
+slide1_head: 'Sudoku generator'
+slide2_head: 'Hack the future'
+slide3_head: Breakout
+slide1_desc: 'Group project to make and solve online sudokus.'
+slide2_desc: "We had to solve multiple challenges at hack the future\r\n"
+slide3_desc: 'For our 3d semester at howest we needed to “refresh” Breakout.'
+slide1_url: node/1
+slide2_url: node/2
+slide3_url: node/3
+_core:
+  default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
+slide1_image:
+  - '2'
+slide2_image:
+  - '3'
+slide3_image:
+  - '4'

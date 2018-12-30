@@ -1,11 +1,11 @@
 uuid: c09cc4f7-5c64-4749-a8d8-a46ce9d4bbc0
-name: 'Drush Site-Install'
-mail: admin@example.com
-slogan: ''
+name: 'Yarne Decuyper'
+mail: yarne.decuyper@student.howest.be
+slogan: 'Portfolio of Yarne Decuyper'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
