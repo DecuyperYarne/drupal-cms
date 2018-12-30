@@ -1,16 +1,16 @@
-uuid: bee032a0-772b-472c-ac50-3be3345994c6
+uuid: bf672f7c-4559-4dec-a234-cfc02fc6c130
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.article
+    - node.type.projects
     - system.menu.main
   module:
     - node
     - user
-id: articles
-label: articles
+id: projects
+label: projects
 module: views
 description: ''
 tag: ''
@@ -143,8 +143,39 @@ display:
           id: type
           table: node_field_data
           field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
           value:
-            article: article
+            projects: projects
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -186,10 +217,10 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: articles
+      path: projects
       menu:
         type: normal
-        title: Articles
+        title: Projects
         description: ''
         expanded: false
         parent: ''
